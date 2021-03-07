@@ -4,6 +4,5 @@
 
 <br>A simple DeepL WebView wrapper for [DeepL](https://www.deepl.com/translator) translation service.<br>
 
-<div style="display:flex;" >
-<img src="https://github.com/vshkl/deepl-web/blob/main/screenshots/screenshot_001.png" width="20%" >
-</div>
+<br>
+<img src="https://github.com/vshkl/deepl-web/blob/main/screenshots/screenshot_001.png" width="33%" >
