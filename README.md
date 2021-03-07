@@ -6,3 +6,5 @@
 
 <br>
 <img src="https://github.com/vshkl/deepl-web/blob/main/screenshots/screenshot_001.png" width="33%" >
+
+[MIT License](https://github.com/vshkl/deepl-web/blob/main/LICENSE)
