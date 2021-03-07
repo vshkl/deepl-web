@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/white</item>
         <item name="android:statusBarColor">@color/blueZodiac</item>
         <item name="android:navigationBarColor">@color/gray</item>
+        <item name="android:navigationBarDividerColor">@color/grayAlto</item>
         <item name="android:windowLightNavigationBar">true</item>
         <item name="actionBarTheme">@style/Theme.DeepLWeb.ActionBar</item>
     </style>

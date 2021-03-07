@@ -13,7 +13,13 @@ class WebViewActivity : AppCompatActivity(R.layout.activity_web_view) {
         super.onCreate(savedInstanceState)
 
         wvMain = findViewById(R.id.wv_main)
+
+        setupActionBar()
         setupWebView()
+    }
+
+    private fun setupActionBar() {
+        supportActionBar?.title = getString(R.string.app_name_short)
     }
 
     @SuppressLint("SetJavaScriptEnabled")
