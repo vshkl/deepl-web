@@ -3,6 +3,8 @@
     <string name="app_name">DeepL Web</string>
     <string name="app_name_short">DeepL</string>
 
+    <string name="open_in_browser">Open in browser</string>
+
     <string name="url_main" translatable="false">https://www.deepl.com/translator</string>
 
 </resources>

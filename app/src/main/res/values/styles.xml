@@ -4,6 +4,8 @@
     <style name="Theme.DeepLWeb.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
         <item name="android:background">@color/blueZodiac</item>
         <item name="titleTextColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+        <item name="tint">@color/white</item>
     </style>
 
 </resources>
