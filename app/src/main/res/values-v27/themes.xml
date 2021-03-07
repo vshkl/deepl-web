@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.DeepLWeb" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.DeepLWeb" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/white</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:statusBarColor">@color/blueZodiac</item>
         <item name="android:navigationBarColor">@color/gray</item>
         <item name="android:windowLightNavigationBar">true</item>
+        <item name="actionBarTheme">@style/Theme.DeepLWeb.ActionBar</item>
     </style>
 
 </resources>

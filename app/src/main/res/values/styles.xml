@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DeepLWeb.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/blueZodiac</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+</resources>
