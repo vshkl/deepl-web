@@ -5,6 +5,13 @@
     >
 
     <item
+        android:id="@+id/action_copy_translation_to_clipboard"
+        android:icon="@drawable/ic_content_copy"
+        android:title="@string/copy_translation_to_clipboard"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
         android:id="@+id/action_open_in_browser"
         android:icon="@drawable/ic_open_in_browser"
         android:title="@string/open_in_browser"

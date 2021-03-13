@@ -4,6 +4,9 @@
     <string name="app_name_short">DeepL</string>
 
     <string name="open_in_browser">Open in browser</string>
+    <string name="copy_translation_to_clipboard">Copy translation to clipboard</string>
+    <string name="copy_translation_message_copied">Main translation copied to clipboard</string>
+    <string name="copy_translation_message_not_copied">No translation to copy</string>
 
     <string name="url_main" translatable="false">https://www.deepl.com/translator</string>
 
