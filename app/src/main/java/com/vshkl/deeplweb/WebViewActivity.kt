@@ -14,6 +14,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 
 class WebViewActivity : AppCompatActivity(R.layout.activity_web_view) {
@@ -44,10 +45,8 @@ class WebViewActivity : AppCompatActivity(R.layout.activity_web_view) {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_open_in_browser ->
-                Intent(Intent.ACTION_VIEW, Uri.parse(wvMain.url)).run(::startActivity)
-            R.id.action_copy_translation_to_clipboard ->
-                copyTranslationToClipboard()
+            R.id.action_open_in_browser -> openInBrowser()
+            R.id.action_copy_translation_to_clipboard -> copyTranslationToClipboard()
         }
         return super.onOptionsItemSelected(item)
     }
@@ -82,6 +81,20 @@ class WebViewActivity : AppCompatActivity(R.layout.activity_web_view) {
                 Toast.makeText(this, R.string.copy_translation_message_not_copied, Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
+    private fun openInBrowser() {
+        AlertDialog.Builder(this)
+            .apply {
+                setTitle(R.string.open_in_browser_alert_title)
+                setMessage(R.string.open_in_browser_alert_message)
+                setPositiveButton(R.string.open_in_browser_alert_positive) { _, _ ->
+                    Intent(Intent.ACTION_VIEW, Uri.parse(wvMain.url)).run(::startActivity)
+                }
+                setNegativeButton(R.string.open_in_browser_alert_negative) { _, _ -> }
+            }
+            .create()
+            .show()
     }
 
 }
