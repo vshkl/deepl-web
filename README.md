@@ -1,4 +1,4 @@
-# DeepL Web #
+# DeepL Web 🎙️ #
 
 <img src="https://github.com/vshkl/deepl-web/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" align="left" width="100" hspace="10" vspace="10">
 
